@@ -1,0 +1,187 @@
+@font-face {
+    font-family: headFont;
+    src: url('fonts/pressstart2p.ttf');
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url('fonts/inyourfacejoffrey.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: bodyFont;
+    background: rgba(7, 5, 31, 1);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10rem;
+}
+
+
+/* Define backgrounds for each section */
+#section1 /*Home*/{ 
+    background: url('images/Home.png') center/contain no-repeat;
+}
+
+#section2 /*Schedule*/{
+    background: url('images/Schedule.png') center/contain no-repeat;
+}
+
+#section3 /*About Us*/{
+    background: url('images/About Us.png') center/contain no-repeat;
+}
+
+#section4 /*Contact Us*/{
+    background: url('images/Contact Us.png') center/contain no-repeat;
+}
+    
+    .head-text {
+        margin-top: 50px;
+        font-size: 80px;
+        color: white;
+        font-family: "headFont";
+    }
+
+    /* Container for 2 rows in column */
+    .vertical-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 125px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Container for 2 buttons in 2 rows */
+    .horizontal-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .link_button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        margin: 5px auto;
+        background-color: #000000;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        color: white;
+        font-family: "bodyFont";
+        font-size: 45px;
+        line-height: 50px;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 1px 1px 3px 3px rgb(80, 80, 80);
+    }
+
+    
+
+#section5 /*Sponsors*/{
+        background: url('images/Sponsors.png') center/contain no-repeat;
+    }
+    
+
+#section6 /*Footer*/{
+    background: url('images/Footer.png') center/contain no-repeat;
+}
+
+/* Style for the footer containing navigation */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style for the navigation links in the footer */
+footer nav ul {
+    background-color: black;
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+    /* border: 2px white solid; */
+    /* border-radius: 2px; */
+    padding: 3px;
+    
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* Footer Buttons */
+.section_button {
+    display: flex;
+    gap: 15px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: white;
+    font-family: "bodyFont";
+    justify-content: center;
+    width: 90px;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(80, 80, 80);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
