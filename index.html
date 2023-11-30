@@ -12,25 +12,38 @@
     <div class="div-9">First Name</div>
     <img
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets/TEMP/cab6ebda-c966-4af0-9f42-30fcd8c57600?"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/de589624-f97d-412b-baf5-0cfc66463c9c?"
       class="img"
     />
   </div>
-  <div class="div-10">Submit</div>
+  <div class="div-10">
+    <div class="div-11">Enrollment ID</div>
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f1b5264-6a48-4fc3-8827-f88e33ae1aaa?"
+      class="img"
+    />
+  </div>
+  <div class="div-12">Submit</div>
 </div>
 <style>
   .div {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    padding: 8px 17px 50px 0;
+    padding: 8px 46px 50px 0;
+  }
+  @media (max-width: 991px) {
+    .div {
+      padding-right: 20px;
+    }
   }
   .div-2 {
     border-radius: 4px;
     background-color: #bbd8fa;
     align-self: start;
     display: flex;
-    width: 43px;
+    width: 45px;
     max-width: 100%;
     flex-direction: column;
     padding: 6px 5px;
@@ -66,19 +79,21 @@
     margin-top: 56px;
     justify-content: center;
     align-items: start;
-    padding: 20px 15px;
+    padding: 20px;
     font: 400 32px Arya, sans-serif;
   }
   @media (max-width: 991px) {
     .div-6 {
-      margin: 40px 0 0 9px;
+      max-width: 100%;
+      margin-top: 40px;
+      padding-left: 10px;
     }
   }
   .div-7 {
     color: #000;
     align-self: start;
-    max-width: 288px;
-    margin: 32px 0 0 21px;
+    max-width: 400px;
+    margin: 32px 0 0 58px;
     font: 400 16px Arya, sans-serif;
   }
   @media (max-width: 991px) {
@@ -89,23 +104,30 @@
   .div-8 {
     border-radius: 6px;
     background-color: #d9d9d9;
-    align-self: start;
+    align-self: center;
     display: flex;
+    margin-top: 51px;
+    width: 479px;
+    max-width: 100%;
     flex-direction: column;
-    margin: 21px 0 0 19px;
-    padding: 20px 13px 11px;
+    padding: 20px 0 11px;
   }
   @media (max-width: 991px) {
     .div-8 {
-      margin-left: 10px;
+      margin-top: 40px;
     }
   }
   .div-9 {
     color: #555;
     font: 400 12px Arya, sans-serif;
   }
+  @media (max-width: 991px) {
+    .div-9 {
+      max-width: 100%;
+    }
+  }
   .img {
-    aspect-ratio: 299;
+    aspect-ratio: 479;
     object-fit: contain;
     object-position: center;
     width: 100%;
@@ -114,22 +136,48 @@
     overflow: hidden;
     margin-top: 5px;
   }
+  @media (max-width: 991px) {
+    .img {
+      max-width: 100%;
+    }
+  }
   .div-10 {
+    border-radius: 6px;
+    background-color: #d9d9d9;
+    align-self: center;
+    display: flex;
+    margin-top: 7px;
+    width: 479px;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 20px 0 11px;
+  }
+  .div-11 {
+    color: #555;
+    font: 400 12px Arya, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+    }
+  }
+  .div-12 {
     color: #fff;
     border-radius: 6px;
     border: 3px solid #000;
     background-color: #63abff;
-    align-self: start;
-    width: 324px;
+    align-self: center;
+    width: 479px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 16px 0 296px 19px;
+    margin: 9px 0 404px;
     padding: 14px 20px;
     font: 400 24px Arya, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-10 {
-      margin: 0 0 40px 10px;
+    .div-12 {
+      margin-bottom: 40px;
     }
   }
 </style>
